@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <h1 id="main-title">Calculotron <strong>3000</strong></h1>
+
+    <label for="number1">First Number:</label>
+    <input id="number1" type="number" value="2" />
+    <br />
+    <label for="operator">Operator</label>
+    <select id="operator">
+      <option value="+">Plus</option>
+      <option value="-">Minus</option>
+      <option value="*">Multiply</option>
+      <option value="/">Divide</option>
+    </select>
+    <br />
+    <label for="number2">Second Number:</label>
+    <input id="number2" type="number" value="3" />
+    <br />
+    <button id="process" type="button">=</button>
+    <button id="reset" type="reset">Reset</button>
+
+    <div id="result">Waiting...</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
